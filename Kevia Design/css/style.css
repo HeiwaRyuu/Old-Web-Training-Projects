@@ -1,0 +1,233 @@
+/*Global*/
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.wallpaperscraft.com/image/akio_bako_anime_sunset_girl_clouds_103086_1920x1080.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.container{
+  width: 80%;
+  padding: 0;
+  margin: auto;
+}
+
+/*Header*/
+header{
+  min-height: 100px;
+}
+
+header a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+header ul{
+  list-style-type: none;
+}
+
+nav{
+  float: right;
+  margin-top: 25px;
+  margin-left:
+}
+
+header li{
+  padding: 10px 15px 10px 15px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header li:hover{
+  border: 1px solid #ffffff;
+  border-collapse: separate;
+  background-color: rgba(255,255,255,0.4)
+}
+
+.Home{
+  border: 1px solid #ffffff;
+}
+
+#logo{
+  color: #ffffff;
+  text-shadow: 0 0 20px #ffffff;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+.kevia{
+  color:#FF5212;
+}
+
+/*Showcase*/
+#center{
+  text-align: center;
+  color: #ffffff;
+}
+
+#center h1{
+  font-size: 60px;
+  margin-top: 200px;
+}
+
+#center p{
+  font-size: 24px;
+}
+
+/*LoginPage*/
+
+.loginText{
+  color: #ffffff;
+}
+
+.email_1{
+  width: 200px;
+  height: 30px;
+  margin: 5px 0 5px 0;
+}
+
+.password_1{
+  width: 200px;
+  height:30px;
+  margin: 5px 0 5px 0;
+}
+
+.button_1{
+  width:100px;
+  height: 30px;
+  margin: 20px 0 20px 0;
+  border:none;
+  background-color: #C6642B;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  transform: translateX(55px);
+}
+
+.loginArea{
+  display: block;
+  margin-left: 400px;
+  margin-right: auto;
+  border: 1px solid #ffffff;
+  padding: 40px;
+}
+
+#loginBlock{
+  display: block;
+  text-align:left;
+  margin-top: 30px;
+  transform: translateX(-450px);
+}
+
+/*Serviços*/
+
+#serviços{
+  position: absolute;
+  display: block;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #ffffff;
+  padding: 5px;
+  border: 2px solid #ffffff;
+}
+
+#serviçosImg1 img{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  border: 1px solid #000000;
+  transition: 2s;
+}
+
+#serviçosImg2 img{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+  border: 1px solid #000000;
+  transition: 2s;
+}
+
+#serviçosImg1 img:hover {
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  transform: translate(-50%,-50%);
+  border: 1px solid #000000;
+  height: 300px;
+  width: 600px;
+  display: block;
+}
+
+
+#serviçosImg2 img:hover{
+  position: ;
+  top: 50%;
+  left: 66%;
+  transform: translate(-50%,-50%);
+  border: 1px solid #000000;
+  height: 300px;
+  width: 600px;
+  display: block;
+}
+
+#serviçosText p{
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 17px;
+  position: absolute;
+  top: 70%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  display: block;
+}
+
+.homeDesign{
+  color: #ffffff;
+  font-weight: bolder;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  transition: 2s;
+  display: block;
+}
+
+.aboutDesign{
+  color: #ffffff;
+  font-weight: bolder;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+  transition: 2s;
+  display: block;
+}
+
+#serviços h1{
+  text-align: center;
+  padding: 10px;
+}
+
+/*Footer*/
+
+footer{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 250px;
+}
+
+#footer_1{
+  height: 50px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48%;
+}
